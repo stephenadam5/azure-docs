@@ -42,6 +42,9 @@ In this quickstart you can use your own data with Azure OpenAI models. Using Azu
 
 ::: zone-end
 
+## Uploading Files
+Files above 16mb are chunked into 16mb files for the model. For instance a 30mb .pdf will be chunked into 2 separate, smaller files.
+
 
 ## Clean up resources
 
